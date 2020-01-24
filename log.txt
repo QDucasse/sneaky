@@ -1,0 +1,410 @@
+CRITICAL: KithSpider STARTED.
+CRITICAL: KithSpider STARTED.
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 69, in __init__
+    self.downloader = downloader_cls(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/downloader/__init__.py", line 86, in __init__
+    self.middleware = DownloaderMiddlewareManager.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'random_useragent'
+CRITICAL: KithSpider STARTED.
+CRITICAL: KithSpider STARTED.
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: Unhandled error in Deferred:
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 86, in crawl
+    self.engine = self._create_engine()
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/crawler.py", line 111, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/engine.py", line 70, in __init__
+    self.scraper = Scraper(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/core/scraper.py", line 71, in __init__
+    self.itemproc = itemproc_cls.from_crawler(crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 53, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/middleware.py", line 34, in from_settings
+    mwcls = load_object(clspath)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/site-packages/scrapy/utils/misc.py", line 46, in load_object
+    mod = import_module(module)
+  File "/Users/qducasse/.virtualenvs/sneaky/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'mysql_pipeline'
+CRITICAL: KithSpider STARTED.
+CRITICAL: KithSpider STARTED.
+CRITICAL: KithSpider STARTED.
+CRITICAL: KithSpider STARTED.
+CRITICAL: KithSpider STARTED.
+CRITICAL: KithSpider STARTED.

@@ -1,1 +1,5 @@
-numpy
+Scrapy
+python-dotenv
+discord.py
+pymongo
+mongoengine

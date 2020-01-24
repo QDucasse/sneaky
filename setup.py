@@ -17,7 +17,7 @@ setup(
     # http://packaging.python.org/en/latest/tutorial.html#version
     version=sneaky.__version__,
 
-    description='Python project structure and starter',
+    description='Sneaker shop crawler',
     long_description=long_description,
 
     # The project's main homepage.
@@ -52,10 +52,10 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='python project structure starter',
+    keywords='python spider crawler discord mongodb scapy',
 
     packages=find_packages(),
 
-    install_requires=['numpy'],
+    install_requires=['Scrapy','python-dotenv','discord.py','pymongo','mongoengine'],
 
 )

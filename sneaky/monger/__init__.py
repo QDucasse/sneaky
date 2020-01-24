@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# pyquickstart
+# sneaky
 # author - Quentin Ducasse
 # https://github.com/QDucasse
 # quentin.ducasse@ensta-bretagne.org
