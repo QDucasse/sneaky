@@ -7,6 +7,12 @@
 
 from scrapy import Item,Field
 
+class BaseItem(Item):
+    link = Field()
+    name = Field()
+    price = Field()
+
 class KithItem(Item):
     link = Field()
     name = Field()
+    price = Field()

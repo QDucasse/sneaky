@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages  # Always prefer setuptools over distutils
 from codecs import open  # To use a consistent encoding
 from os import path
-import fdia_simulation
+import sneaky
 
 here = path.abspath(path.dirname(__file__))
 
@@ -52,7 +52,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='python spider crawler discord mongodb scapy',
+    keywords='python spider crawler discord mongodb scrapy',
 
     packages=find_packages(),
 

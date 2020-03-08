@@ -12,4 +12,4 @@ __all__ = ["items","middlewares","settings","spiders"]
 from .items       import *
 from .middlewares import *
 from .settings    import *
-from .spiders     import *
+# from .spiders     import *
