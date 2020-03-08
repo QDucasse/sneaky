@@ -7,8 +7,7 @@
 
 from __future__ import absolute_import
 
-__all__ = ["base_spider,kith_spider,kith_spider2"]
+__all__ = ["base_spider,kith_spider"]
 
 from .base_spider import *
 from .kith_spider import *
-from .kith_spider2 import *

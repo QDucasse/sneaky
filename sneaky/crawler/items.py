@@ -12,7 +12,8 @@ class BaseItem(Item):
     name = Field()
     price = Field()
 
-class KithItem(Item):
-    link = Field()
-    name = Field()
-    price = Field()
+class KithItem(BaseItem):
+    pass
+
+class DTLRItem(BaseItem):
+    pass

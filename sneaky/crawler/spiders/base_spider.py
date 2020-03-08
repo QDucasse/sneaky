@@ -17,7 +17,7 @@ class BaseSpider(Spider):
     # allowded_domains = ["TO_BE_GIVEN"]
     # start_urls = [TO_BE_GIVEN]
 
-    def __init__(self,base_url, pagination, item,
+    def __init__(self,base_url, item, pagination,
                  products, product_name, product_price, product_disc_price, product_link):
 
         self.base_url           = base_url
