@@ -22,11 +22,10 @@ class KithSpider(BaseSpider):
         # XPATH
         pagination_path         = "//div[@class='pagination']/a/@href"
         products_path           = "//div[@class='product-card']"
-        # CSS
-        product_name_path       = "div.product-card__information h1.product-card__title::text"
-        product_price_path      = "div.product-card__information span.product-card__price::text"
-        product_disc_price_path = "div.product-card__information span.product-card__price::text"
-        product_link_path       = "div.product-card__image-slide-container a.product-card__image-slide::attr(href)"
+        product_name_path       = "//h1[@class='product-card__title']/text()"
+        product_price_path      = "//span[@class='product-card__price']/text()"
+        product_disc_price_path = "//span[@class='product-card__price']/text()"
+        product_link_path       = "//a[@class='product-card__link']/@href"
 
         super().__init__(base_url, item, pagination_path,
                          products_path, product_name_path, product_price_path,

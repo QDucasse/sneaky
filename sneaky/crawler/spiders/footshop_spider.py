@@ -20,13 +20,12 @@ class FootshopSpider(BaseSpider):
         base_url                = "footshop.com"
         item                    = FootshopItem
         # XPATH
-        pagination_path         = ""
-        products_path           = ""
-        # CSS
-        product_name_path       = ""
-        product_price_path      = ""
-        product_disc_price_path = ""
-        product_link_path       = ""
+        pagination_path         = "//*[starts-with(@class,\"PaginationLinks_nav\")]/a/@href"
+        products_path           = "//*[starts-with(@class,\"Products_product\")]"
+        product_name_path       = "//*[starts-with(@class,\"Product_name\")]/@title"
+        product_price_path      = "//*[starts-with(@class,\"ProductPrice_price\")]/strong/text()"
+        product_disc_price_path = "//*[starts-with(@class,\"ProductPrice_price\")]/strong/text()"
+        product_link_path       = "//a[starts-with(@class,\"Product_text\")]/@href"
 
         super().__init__(base_url, item, pagination_path,
                          products_path, product_name_path, product_price_path,
@@ -34,5 +33,5 @@ class FootshopSpider(BaseSpider):
 
 if __name__=="__main__":
     process = CrawlerProcess()
-    process.crawl(NAMESpider)
+    process.crawl(FootshopSpider)
     process.start()

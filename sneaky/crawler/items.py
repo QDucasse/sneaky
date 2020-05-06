@@ -17,3 +17,6 @@ class KithItem(BaseItem):
 
 class DTLRItem(BaseItem):
     pass
+
+class FootshopItem(BaseItem):
+    pass
