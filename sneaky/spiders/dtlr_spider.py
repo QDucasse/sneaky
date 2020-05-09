@@ -4,14 +4,15 @@
 # author - Quentin Ducasse
 # https://github.com/QDucasse
 # quentin.ducasse@ensta-bretagne.org
-
-from sneaky.crawler.spiders import BaseSpider
-from sneaky.crawler import DTLRItem
 from scrapy.crawler import CrawlerProcess
+
+from sneaky.spiders import BaseSpider
+from sneaky import DTLRItem
+
 
 class DTLRSpider(BaseSpider):
 
-    name = "DTLRSpider"
+    name = "dtlr"
     allowded_domains = ["dtlr.com"]
     start_urls = ["https://www.dtlr.com/collections/men-footwear"]
 

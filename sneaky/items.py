@@ -12,11 +12,11 @@ class BaseItem(Item):
     name = Field()
     price = Field()
 
-class KithItem(BaseItem):
-    pass
-
 class DTLRItem(BaseItem):
     pass
 
 class FootshopItem(BaseItem):
+    pass
+
+class KithItem(BaseItem):
     pass

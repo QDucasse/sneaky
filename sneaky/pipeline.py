@@ -10,12 +10,11 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
-
 import pymongo
 
-class MongoPipeline(object):
+class MongoPipeline:
 
-    collection_name = 'scrapy_items'
+    collection_name = 'sneakers'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri

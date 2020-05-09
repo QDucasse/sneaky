@@ -4,10 +4,10 @@
 # author - Quentin Ducasse
 # https://github.com/QDucasse
 # quentin.ducasse@ensta-bretagne.org
-
-from sneaky.crawler.spiders import BaseSpider
-from sneaky.crawler import KithItem
 from scrapy.crawler import CrawlerProcess
+
+from sneaky.spiders import BaseSpider
+from sneaky import BaseItem
 
 class NAMESpider(BaseSpider):
 
